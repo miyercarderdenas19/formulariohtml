@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+
+<body>
+    <section>
+
+
+
+
+
+
+        <form class="FORMULARIO">
+            <div class="contenedor">
+                <div style="background-color: rgb(90, 163, 45);">
+
+
+
+
+                    <h1>Registro</h1>
+
+
+                    <label for="Id"> ID: </label><br>
+                    <input type="text" Id="id" name="id" autofocus required pattern="[0-9A-Za-z]{2,15}"
+                        placeholder="digite su Id"><br><br>
+
+                    <label for="firstname">Name:</label><br>
+                    <input type="text" name="firstname" id="firstname" required pattern="[A-Za-z ]{2,40}""
+                      placeholder=" enter your name"><br><br>
+
+
+                    <label for="lastname"> surname :</label><br>
+                    <input type="text" surname="lastname" id="lastname" size="40" required pattern="[A-Za-z ]{2,40}""
+                      placeholder=" enter your last name"><br><br>
+
+                    <label for="pwd">password:</label><br><br>
+                    <input type="password" id="pwd" name="pwd" required pattern="[0-9A-Za-z-@-*]{8,12}"><br><br>
+
+                    <label for="confirmpwd">confirm password:</label><br><br>
+                    <input type="password" id="confirmpwd" name="confirmpwd" required pattern="[0-9A-Za-z-@-*]{2,40}"
+                        ><br><br>
+
+
+                    <label for="email">Email :</label><br>
+                    <input type="email" name="email" id="email" required size="40" max="30" min="10"><br><br> 
+                    <label>direction :</label><br>
+                    <input type="text" name="Direccion" id="Direction"  required size="40" max="30" min="10"><br><br>
+                    <br> 
+
+                    <label for="sex">sex:</label><br>
+                    <input type="radio" name="sex">men<br>
+                    <input type="radio" name="sex">Woman<br>
+                    <br>
+                    <label for="study">Study Level :</label><br>
+                    <input type="checkbox">has no studies<br>
+                    <input type="checkbox">Technical<br>
+                    <input type="checkbox">academic<br>
+                    <input type="checkbox">technologist<br>
+                    <input type="checkbox">bachelor<br>
+
+                    <br>
+                    <label for="departament">Department:</label><br>
+                    <select name="" id="">
+                        <option value="">Seleccione</option>
+                        <option value="">amazonas</option>
+                        <option value="">antioquia</option>
+                        <option value="">arauca</option>
+                        <option value="">atlantico</option>
+                        <option value="">bolivar</option>
+                        <option value="">boyaca</option>
+                        <option value="">caldas</option>
+                        <option value="">caqueta</option>
+                        <option value="">casanare</option>
+                        <option value="">cauca</option>
+                        <option value="">cesar</option>
+                        <option value="">choco</option>
+                        <option value="">cundinamarca</option>
+                        <option value="">guainia</option>
+                        <option value="">guaviare</option>
+                        <option value="">huila</option>
+                        <option value="">la guajira</option>
+                        <option value="">magdalena</option>
+                        <option value="">meta</option>
+                        <option value="">nariño</option>
+                        <option value="">norte de santander</option>
+                        <option value="">putumayo
+                        <option value="">quindio</option>
+                        <option value="">risaralda</option>
+                        <option value="">san andres y providencia</option>
+                        <option value="">santander</option>
+                        <option value="">sucre</option>
+                        <option value="">sucre</option>
+                        <option value="">tolima</option>
+                        <option value="">valle del cauca</option>
+                        <option value="">vaupes</option>
+                        <option value="">vichada</option>
+                    </select><br>
+                    <br>
+                    <label for="date">Date of Birth :</label><br>
+                    <input type="date"><br>
+                    <br>
+
+
+
+
+
+
+
+
+                    <input type="checkbox">remember me <menu><br>
+                        <input type="submit" value="enviar" class="boton">
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
